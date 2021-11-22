@@ -59,6 +59,19 @@ tab.forEach(element => {
     console.log(element);
 });
 
+console.log("###############################");
+function somme(val1: any = 0, val2: any = 0) {
+    return val1 + val2
+}
+
+let sommebis = (val1: any = 0, val2: any = 0) => val1 + val2
+// let val3 = somme()
+// console.log("La somme est " + val3);
+// console.log(somme("Macky", " SALL"));
+
+let val3 = sommebis()
+console.log("La somme est " + val3);
+console.log(sommebis("Macky", " SALL"));
 
 
 

@@ -51,3 +51,20 @@ console.log("###############################");
 tab.forEach(function (element) {
     console.log(element);
 });
+console.log("###############################");
+function somme(val1, val2) {
+    if (val1 === void 0) { val1 = 0; }
+    if (val2 === void 0) { val2 = 0; }
+    return val1 + val2;
+}
+var sommebis = function (val1, val2) {
+    if (val1 === void 0) { val1 = 0; }
+    if (val2 === void 0) { val2 = 0; }
+    return val1 + val2;
+};
+// let val3 = somme()
+// console.log("La somme est " + val3);
+// console.log(somme("Macky", " SALL"));
+var val3 = sommebis();
+console.log("La somme est " + val3);
+console.log(sommebis("Macky", " SALL"));
