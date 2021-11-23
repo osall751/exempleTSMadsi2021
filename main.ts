@@ -1,3 +1,11 @@
+import { Etudiant } from './etudiant.js';
+
+let etu1 = new Etudiant("Ould Taya 1", "52444A555", 2015)
+etu1.nomComplet = "Macky SALL"
+console.log(etu1.numCarte);
+console.log(etu1);
+
+
 console.log("Hello world !!!")
 
 // alert("Bonsoir CFPP 2022 !!!")
@@ -72,6 +80,7 @@ let sommebis = (val1: any = 0, val2: any = 0) => val1 + val2
 let val3 = sommebis()
 console.log("La somme est " + val3);
 console.log(sommebis("Macky", " SALL"));
+
 
 
 
